@@ -1,0 +1,11 @@
+apiVersion: v2
+actions:
+  - name: "Run Neo"
+    events:
+      - name: "sh.keptn.event.test.triggered"
+        jsonpath:
+          property: "$.data.test.teststrategy"
+          match: "performance"
+    tasks:
+      - name: "Run Neo tests"
+        image: "registry-dev.cigna.com/a06790/neojes:latest"

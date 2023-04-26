@@ -8,4 +8,4 @@ actions:
           match: "performance"
     tasks:
       - name: "Run Neo tests"
-        image: "registry-dev.cigna.com/a06790/neojes:latest"
+        image: "cjmckenna/neojes:latest"

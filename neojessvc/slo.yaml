@@ -1,0 +1,31 @@
+spec_version: ""
+filter: {}
+comparison:
+    compare_with: single_result
+    include_result_with_score: pass
+    number_of_comparison_results: 1
+    aggregate_function: avg
+objectives:
+    - sli: problems
+      displayName: ""
+      pass:
+        - criteria:
+            - <=0
+      warning: []
+      weight: 1
+      key_sli: true
+    - sli: graph
+      displayName: Graph
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <38.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <60.000000
+      weight: 1
+      key_sli: false
+total_score:
+    pass: 90%
+    warning: 75%

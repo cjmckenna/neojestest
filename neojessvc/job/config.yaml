@@ -9,3 +9,6 @@ actions:
     tasks:
       - name: "Run Neo tests"
         image: "cjmckenna/neojes:latest"
+        args:
+          - "5e3acde2e860a132744ca916"
+          - "becb58f6-299a-4dbc-aac4-6298a94fb33a"

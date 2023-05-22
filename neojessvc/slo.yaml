@@ -62,8 +62,8 @@ objectives:
             - <700.000000
       weight: 1
       key_sli: false
-    - sli: old_gen_gc_time
-      displayName: Old Gen GC Time
+    - sli: old_gen_gc_count
+      displayName: Old Gen GC Count
       pass:
         - criteria:
             - '>=0.000000'

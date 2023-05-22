@@ -50,6 +50,18 @@ objectives:
             - <10.000000
       weight: 1
       key_sli: false
+    - sli: eden_gc_time
+      displayName: Eden GC Time
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <499.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <700.000000
+      weight: 1
+      key_sli: false
 total_score:
     pass: 90%
     warning: 75%

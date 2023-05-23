@@ -287,6 +287,18 @@ objectives:
             - <10.000000
       weight: 1
       key_sli: false
+    - sli: errors_individualpreferencesresource
+      displayName: Errors (IndividualPreferencesResource)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      weight: 1
+      key_sli: false
     - sli: errors_soap-individualcompliancelocator_-_v3
       displayName: Errors (SOAP-IndividualComplianceLocator - V3)
       pass:
@@ -313,18 +325,6 @@ objectives:
       key_sli: false
     - sli: errors_soap-individualcompliancelocator_-_v2
       displayName: Errors (SOAP-IndividualComplianceLocator - V2)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <1.000000
-      warning:
-        - criteria:
-            - '>=0.000000'
-            - <10.000000
-      weight: 1
-      key_sli: false
-    - sli: errors_individualpreferencesresource
-      displayName: Errors (IndividualPreferencesResource)
       pass:
         - criteria:
             - '>=0.000000'

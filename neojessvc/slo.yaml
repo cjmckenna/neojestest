@@ -83,8 +83,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-gkdw6_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-gkdw6 individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f9755bfc9-srmxf_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f9755bfc9-srmxf individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -95,8 +95,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-srmxf_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-srmxf individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f9755bfc9-gkdw6_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f9755bfc9-gkdw6 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -189,6 +189,90 @@ objectives:
         - criteria:
             - '>=0.000000'
             - <500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_soap-individualcompliancelocator_-_v2
+      displayName: Response Time (SOAP-IndividualComplianceLocator - V2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_auth_proxy-_cxf_individual_v3_customerpreferences
+      displayName: Response Time (Auth Proxy-/cxf/individual/v3/customerpreferences)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_default
+      displayName: Response Time (default)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_soap-individualcompliancelocator_-_v3
+      displayName: Response Time (SOAP-IndividualComplianceLocator - V3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_customerpreferencesresource
+      displayName: Response Time (CustomerPreferencesResource)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
       weight: 1
       key_sli: false
 total_score:

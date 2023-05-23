@@ -16,3 +16,15 @@ spec:
       subscriptionID: 0f19d2eb-509d-4db0-876c-96a7527b802c
       sendFinished: true
       sendStarted: true
+    - type: sh.keptn.event.evaluation.finished
+      requests:
+        - url: https://webexapis.com/v1/webhooks/incoming/Y2lzY29zcGFyazovL3VzL1dFQkhPT0svNjU4YTgyYmMtOTBhMC00YTk0LTgzM2QtZmE1YjRjZDU0MzI3
+          payload: >-
+            {"markdown":"Evaluation finished for {{.data.project}} at {{.time}} with a result of {{.data.result}}"}
+          headers:
+            - key: Content-Type
+              value: application/json
+          method: POST
+      subscriptionID: 2bcb9a81-eb22-473f-9bb2-8f9459278e4a
+      sendFinished: false
+      sendStarted: false

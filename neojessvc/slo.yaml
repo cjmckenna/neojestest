@@ -59,8 +59,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-kb5qh_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-kb5qh individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f9755bfc9-dnfhj_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f9755bfc9-dnfhj individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -71,8 +71,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-dnfhj_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-dnfhj individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f9755bfc9-kb5qh_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f9755bfc9-kb5qh individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'

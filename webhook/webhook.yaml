@@ -1,0 +1,18 @@
+apiVersion: webhookconfig.keptn.sh/v1beta1
+kind: WebhookConfig
+metadata:
+  name: webhook-configuration
+spec:
+  webhooks:
+    - type: sh.keptn.event.evaluation.triggered
+      requests:
+        - url: https://webexapis.com/v1/webhooks/incoming/Y2lzY29zcGFyazovL3VzL1dFQkhPT0svNjU4YTgyYmMtOTBhMC00YTk0LTgzM2QtZmE1YjRjZDU0MzI3
+          payload: >-
+            {"markdown":"Evaluation for {{.data.project}} started at {{.time}}. Evaluation timeframe {{.data.evaluation.timeframe}}"}
+          headers:
+            - key: Content-Type
+              value: application/json
+          method: POST
+      subscriptionID: 8d44292a-8247-4cdb-87ab-212374baac9b
+      sendFinished: false
+      sendStarted: false

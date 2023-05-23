@@ -191,8 +191,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v3
-      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+    - sli: response_time_individualpreferencesresource
+      displayName: Response Time (IndividualPreferencesResource)
       pass:
         - criteria:
             - '>=0.000000'
@@ -203,8 +203,8 @@ objectives:
             - <1500.000000
       weight: 1
       key_sli: false
-    - sli: response_time_auth_proxy-_cxf_individual_v3_customerpreferences
-      displayName: Response Time (Auth Proxy-/cxf/individual/v3/customerpreferences)
+    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
       pass:
         - criteria:
             - '>=0.000000'
@@ -227,32 +227,8 @@ objectives:
             - <1500.000000
       weight: 1
       key_sli: false
-    - sli: response_time_soap-individualcompliancelocator_-_v3
-      displayName: Response Time (SOAP-IndividualComplianceLocator - V3)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <1000.000000
-      warning:
-        - criteria:
-            - '>=0.000000'
-            - <1500.000000
-      weight: 1
-      key_sli: false
-    - sli: response_time_individualpreferencesresource
-      displayName: Response Time (IndividualPreferencesResource)
-      pass:
-        - criteria:
-            - '>=0.000000'
-            - <1000.000000
-      warning:
-        - criteria:
-            - '>=0.000000'
-            - <1500.000000
-      weight: 1
-      key_sli: false
-    - sli: response_time_customerpreferencesresource
-      displayName: Response Time (CustomerPreferencesResource)
+    - sli: response_time_auth_proxy-_cxf_individual_v3_customerpreferences
+      displayName: Response Time (Auth Proxy-/cxf/individual/v3/customerpreferences)
       pass:
         - criteria:
             - '>=0.000000'
@@ -275,20 +251,20 @@ objectives:
             - <1500.000000
       weight: 1
       key_sli: false
-    - sli: errors_auth_proxy-_cxf_individual_v3_customerpreferences
-      displayName: Errors (Auth Proxy-/cxf/individual/v3/customerpreferences)
+    - sli: response_time_soap-individualcompliancelocator_-_v3
+      displayName: Response Time (SOAP-IndividualComplianceLocator - V3)
       pass:
         - criteria:
             - '>=0.000000'
-            - <1.000000
+            - <1000.000000
       warning:
         - criteria:
             - '>=0.000000'
-            - <10.000000
+            - <1500.000000
       weight: 1
       key_sli: false
-    - sli: errors_customerpreferencesresource
-      displayName: Errors (CustomerPreferencesResource)
+    - sli: errors_auth_proxy-_cxf_individual_v3_customerpreferences
+      displayName: Errors (Auth Proxy-/cxf/individual/v3/customerpreferences)
       pass:
         - criteria:
             - '>=0.000000'

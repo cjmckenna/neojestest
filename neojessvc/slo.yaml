@@ -6,14 +6,6 @@ comparison:
     number_of_comparison_results: 1
     aggregate_function: avg
 objectives:
-    - sli: problems
-      displayName: ""
-      pass:
-        - criteria:
-            - <=0
-      warning: []
-      weight: 1
-      key_sli: true
     - sli: old_gen_gc_count
       displayName: Old Gen GC Count
       pass:
@@ -47,8 +39,8 @@ objectives:
             - <10.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f564fd894-zpfn4_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f564fd894-zpfn4 individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-gcj79_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-gcj79 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -59,8 +51,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f564fd894-gcj79_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f564fd894-gcj79 individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-zpfn4_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-zpfn4 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -83,8 +75,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f564fd894-x2zvb_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f564fd894-x2zvb individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-qcb7w_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-qcb7w individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -95,8 +87,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f564fd894-qcb7w_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f564fd894-qcb7w individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-x2zvb_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-x2zvb individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'

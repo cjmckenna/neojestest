@@ -47,8 +47,8 @@ objectives:
             - <10.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-rgh22_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-rgh22 individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-zpfn4_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-zpfn4 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -59,8 +59,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-dnfhj_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-dnfhj individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-gcj79_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-gcj79 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -71,8 +71,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-srmxf_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-srmxf individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-ddpwk_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-ddpwk individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -83,8 +83,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-kb5qh_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-kb5qh individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-x2zvb_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-x2zvb individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -95,8 +95,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-gkdw6_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-gkdw6 individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-qcb7w_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-qcb7w individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -107,8 +107,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: cpu_individual-assembly-a-f9755bfc9-t7qxj_individual-assembly-a
-      displayName: CPU (individual-assembly-a-f9755bfc9-t7qxj individual-assembly-a)
+    - sli: cpu_individual-assembly-a-f564fd894-2hmdg_individual-assembly-a
+      displayName: CPU (individual-assembly-a-f564fd894-2hmdg individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -119,8 +119,8 @@ objectives:
             - <600.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-gkdw6_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-gkdw6 individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-ddpwk_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-ddpwk individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -131,8 +131,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-t7qxj_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-t7qxj individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-zpfn4_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-zpfn4 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -143,8 +143,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-dnfhj_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-dnfhj individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-qcb7w_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-qcb7w individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -155,8 +155,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-rgh22_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-rgh22 individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-2hmdg_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-2hmdg individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -167,8 +167,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-srmxf_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-srmxf individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-gcj79_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-gcj79 individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -179,8 +179,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: throttle_time_individual-assembly-a-f9755bfc9-kb5qh_individual-assembly-a
-      displayName: Throttle Time (individual-assembly-a-f9755bfc9-kb5qh individual-assembly-a)
+    - sli: throttle_time_individual-assembly-a-f564fd894-x2zvb_individual-assembly-a
+      displayName: Throttle Time (individual-assembly-a-f564fd894-x2zvb individual-assembly-a)
       pass:
         - criteria:
             - '>=0.000000'
@@ -191,8 +191,8 @@ objectives:
             - <500.000000
       weight: 1
       key_sli: false
-    - sli: response_time
-      displayName: Response Time
+    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
       pass:
         - criteria:
             - '>=0.000000'
@@ -203,8 +203,104 @@ objectives:
             - <1500.000000
       weight: 1
       key_sli: false
-    - sli: errors
-      displayName: Errors
+    - sli: response_time_soap-individualcompliancelocator_-_v2
+      displayName: Response Time (SOAP-IndividualComplianceLocator - V2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: Response Time (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_default
+      displayName: Response Time (default)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: response_time_soap-individualcompliancelocator_-_v3
+      displayName: Response Time (SOAP-IndividualComplianceLocator - V3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1000.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <1500.000000
+      weight: 1
+      key_sli: false
+    - sli: errors_soap-individualcompliancelocator_-_v3
+      displayName: Errors (SOAP-IndividualComplianceLocator - V3)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      weight: 1
+      key_sli: false
+    - sli: errors_default
+      displayName: Errors (default)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      weight: 1
+      key_sli: false
+    - sli: errors_soap-individualcompliancelocator_-_v2
+      displayName: Errors (SOAP-IndividualComplianceLocator - V2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v2
+      displayName: Errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v2)
+      pass:
+        - criteria:
+            - '>=0.000000'
+            - <1.000000
+      warning:
+        - criteria:
+            - '>=0.000000'
+            - <10.000000
+      weight: 1
+      key_sli: false
+    - sli: errors_auth_proxy-_cxf_individual_individualcompliancelocator_v3
+      displayName: Errors (Auth Proxy-/cxf/individual/IndividualComplianceLocator/v3)
       pass:
         - criteria:
             - '>=0.000000'
